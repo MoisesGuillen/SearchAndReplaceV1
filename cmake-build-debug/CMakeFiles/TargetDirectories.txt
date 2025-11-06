@@ -1,0 +1,3 @@
+/Users/moisesguillen/Desktop/Projects (C++)/SearchAndReplaceV1/cmake-build-debug/CMakeFiles/SearchAndReplaceV1.dir
+/Users/moisesguillen/Desktop/Projects (C++)/SearchAndReplaceV1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/moisesguillen/Desktop/Projects (C++)/SearchAndReplaceV1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
