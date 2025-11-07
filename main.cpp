@@ -1,6 +1,6 @@
 // Search & Replace V1
 // Guillen, Moises
-// Thu Nov 6 6:30PM
+// Thu Nov 6 8:00PM
 // strings , getline(), size_t , .find() , npos , .replace(), .length()
 #include <iostream>
 #include <string>
@@ -20,6 +20,7 @@ int main() {
 
 
     size_t position{ source.find(pattern) };
+
     if (position != std::string::npos) {
         source.replace(position, pattern.length(), replacement);
     }
