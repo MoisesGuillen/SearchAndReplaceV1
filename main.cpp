@@ -18,11 +18,9 @@ int main() {
     std::string replacement{};
     std::getline(std::cin, replacement);
 
-
-    size_t position{ source.find(pattern) };
-
-    if (position != std::string::npos) {
-        source.replace(position, pattern.length(), replacement);
+    size_t positionString{source.find(pattern)};
+    if (positionString != std::string::npos) {
+        source.replace(positionString,pattern.length(),replacement);
     }
 
     std::cout << "\nAfter replacement: " << source << '\n';
